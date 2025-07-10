@@ -19,8 +19,6 @@
     <div class="section">
       <p class="section-title">Evaluasi & Lainnya</p>
       <router-link to="/quiz" class="link" exact-active-class="active">Quiz</router-link>
-      <router-link to="/forum" class="link" exact-active-class="active">Forum</router-link>
-      <router-link to="/artikel" class="link" exact-active-class="active">Artikel</router-link>
       <router-link to="/notifikasi" class="link" exact-active-class="active">Notifikasi</router-link>
       <router-link to="/profil" class="link" exact-active-class="active">Profil</router-link>
     </div>

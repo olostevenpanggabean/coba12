@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Beranda from '../menu/Beranda.vue'
 import Jurusan from '../menu/Jurusan.vue'
 import Dasar from '../menu/Dasar.vue'
-import Forum from '../menu/Forum.vue'
 import Menengah from '../menu/Menengah.vue'
 import Lanjut from '../menu/Lanjut.vue'
 import Notifikasi from '../menu/Notifikasi.vue'
@@ -14,7 +13,6 @@ const routes = [
   { path: '/', component: Beranda },
   { path: '/jurusan', component: Jurusan },
   { path: '/dasar', component: Dasar },
-  { path: '/forum', component: Forum },
   { path: '/menengah', component: Menengah },
   { path: '/lanjut', component: Lanjut },
   { path: '/notifikasi', component: Notifikasi },

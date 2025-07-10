@@ -2,9 +2,15 @@
   "profil": [
     {
       "id": 1,
+      "fakultas": "Teknik",
       "jurusan": "Teknik Informatika",
-      "semester": 4,
-      "fakultas": "Teknik"
+      "semester": 4
+    },
+    {
+      "id": 4,
+      "fakultas": "Teknik",
+      "jurusan": "Teknik Informatika",
+      "semester": 3
     }
   ],
   "rencana": [
@@ -12,6 +18,11 @@
       "id": 1,
       "jam": "10.00 - 12.00",
       "profilId": 1
+    },
+    {
+      "id": 2,
+      "jam": "10.00 - 12.00",
+      "profilId": 4
     }
   ],
   "modul_dasar": [
@@ -26,7 +37,7 @@
           "durasi": "8 jam",
           "sumber": "Modul 1.1",
           "video_link": "https://example.com",
-          "progress": 20
+          "progress": "71"
         }
       ]
     },
@@ -41,7 +52,7 @@
           "durasi": "6 jam",
           "sumber": "Modul 1.2",
           "video_link": "https://example.com/os",
-          "progress": 87
+          "progress": "30"
         }
       ]
     },
@@ -330,7 +341,7 @@
           "durasi": "12 jam",
           "sumber": "Modul 3.1",
           "video_link": "https://example.com/restapi",
-          "progress": 91
+          "progress": "23"
         }
       ]
     },
